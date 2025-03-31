@@ -1,22 +1,23 @@
-
 const mysql = require('mysql2');
+require('dotenv').config();
 
-const conexao = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'k12345611ke',
-    database: 'sistema_notas'
+const connection = mysql.createConnection({
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME,
 });
 
-conexao.connect((erro) => {
-    if (erro) {
-        console.error('Erro ao conectar ao banco de dados:', erro);
-    } else {
-        console.log('Conectado ao banco de dados!');
-    }
+connection.connect((err) => {
+  if (err) {
+    console.error('Erro de conexão: ' + err.stack);
+    return;
+  }
+  console.log('Conectado ao banco de dados com ID ' + connection.threadId);
 });
 
-module.exports = conexao;
+module.exports = connection;
+
 
 
 
