@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Alunos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Gerenciamento de Alunos</h1>
+
+  <form id="alunoform">
+    <input type="text" id="nome" placeholder="Nome do aluno" required>
+    <input type="number" id="nota1" placeholder="Nota 1" required>
+    <input type="number" id="nota2" placeholder="Nota 2" required>
+    <button type="submit">Adicionar</button>
+  </form>
+
+  <h2>Lista de Alunos</h2>
+  <table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Média</th>
+            <th>Situação</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody id="listaAlunos"></tbody>
+  </table>
+  <script src="script.js"></script>
+</body>
+</html>
+
