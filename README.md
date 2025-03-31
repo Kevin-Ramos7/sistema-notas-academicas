@@ -6,8 +6,9 @@ onde é possível cadastrar, atualizar, consultar e excluir alunos com suas resp
 # Como rodar localmente
 
 1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Kevin-Ramos7/sistema-notas-academicas.git
 
-git clone https://github.com/Kevin-Ramos7/sistema-notas-academicas.git
 
 2. Instale as dependências:
 
@@ -16,14 +17,14 @@ git clone https://github.com/Kevin-Ramos7/sistema-notas-academicas.git
 4. Inicie o servidor:
 
 
-# Endpoints disponíveis
+## Endpoints disponíveis
 
 - `GET /alunos` - Consulta todos os alunos.
 - `POST /alunos` - Adiciona um novo aluno.
 - `PUT /alunos/:id` - Atualiza os dados de um aluno.
 - `DELETE /alunos/:id` - Exclui um aluno.
 
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Node.js
 - Express
