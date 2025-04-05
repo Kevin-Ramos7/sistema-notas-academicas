@@ -32,6 +32,7 @@ DB_NAME=nome_do_banco
 
 Depois, inicie o servidor:
 ```bash
+---
 npm start
 ```
 📌 Endpoints disponíveis
