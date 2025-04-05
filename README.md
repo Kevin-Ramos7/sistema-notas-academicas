@@ -1,4 +1,4 @@
-# 📚 Sistema de Notas Acadêmicas
+# 📚💻 Sistema de Notas Acadêmicas
 
 Este projeto é um sistema de gerenciamento de notas acadêmicas, desenvolvido com **Node.js** e **MySQL**.  
 Ele permite **cadastrar, atualizar, consultar e excluir alunos**, além de armazenar suas respectivas notas.
@@ -59,7 +59,3 @@ dotenv
 CORS
 HTML, CSS e JavaScript (interface básica)
 ```
-
-
-
-
