@@ -16,8 +16,9 @@ npm install
 
 ---
 
-Crie um arquivo .env com as variáveis:
+Crie um arquivo `.env` com as variáveis:
 
+``env
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=sua_senha
