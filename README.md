@@ -32,7 +32,6 @@ DB_NAME=nome_do_banco
 
 Depois, inicie o servidor:
 ```bash
----
 npm start
 ```
 📌 Endpoints disponíveis
@@ -52,14 +51,14 @@ Caso prefira, os testes também podem ser feitos utilizando ferramentas como Pos
 ---
 
 🛠️ Tecnologias utilizadas
-
+```bash
 Node.js
 Express
 MySQL
 dotenv
 CORS
 HTML, CSS e JavaScript (interface básica)
-
+```
 
 
 
