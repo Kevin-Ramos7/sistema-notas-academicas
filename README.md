@@ -15,6 +15,7 @@ git clone https://github.com/Kevin-Ramos7/sistema-notas-academicas.git
 cd sistema-notas-academicas
 
 npm install
+```
 
 ---
 
@@ -25,6 +26,7 @@ DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=sua_senha
 DB_NAME=nome_do_banco
+```
 
 ---
 
