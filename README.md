@@ -1,8 +1,10 @@
 # 📚 Sistema de Notas Acadêmicas
 
-Este projeto é um sistema de gerenciamento de notas acadêmicas, desenvolvido com Node.js e MySQL. Ele permite cadastrar, atualizar, consultar e excluir alunos, além de armazenar suas respectivas notas.
+Este projeto é um sistema de gerenciamento de notas acadêmicas, desenvolvido com **Node.js** e **MySQL**.  
+Ele permite **cadastrar, atualizar, consultar e excluir alunos**, além de armazenar suas respectivas notas.
 
 Também foi criada uma **interface básica com HTML, CSS e JavaScript** para testar as funcionalidades da API de forma visual.
+
 
 ---
 
@@ -18,7 +20,7 @@ npm install
 
 Crie um arquivo `.env` com as variáveis:
 
-``env
+```env
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=sua_senha
