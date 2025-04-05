@@ -31,16 +31,16 @@ DB_NAME=nome_do_banco
 ---
 
 Depois, inicie o servidor:
-
+```bash
 npm start
-
+```
 📌 Endpoints disponíveis
-
+```http
 GET /alunos – Consulta todos os alunos
 POST /alunos – Adiciona um novo aluno
 PUT /alunos/:id – Atualiza os dados de um aluno
 DELETE /alunos/:id – Exclui um aluno
-
+```
 ---
 
 🧪 Interface de Teste
