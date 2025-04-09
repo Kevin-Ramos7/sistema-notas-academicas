@@ -30,9 +30,9 @@ DB_NAME=nome_do_banco
 
 ---
 
-Depois, inicie o servidor:
+Depois, execute no servidor:
 ```bash
-npm start
+exemplo: index.js
 ```
 📌 Endpoints disponíveis
 ```http
